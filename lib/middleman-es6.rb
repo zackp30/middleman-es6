@@ -9,8 +9,7 @@ class MiddlemanEs6Extension < ::Middleman::Extension
   end
 
   def register_es6_template
-    ::Tilt.register MiddlemanEs6::Template, "es6"
-    ::Sprockets.register_engine ".es6", MiddlemanEs6::Template
+    ::Sprockets.register_engine '.es6', MiddlemanEs6::Template
   end
 end
 
