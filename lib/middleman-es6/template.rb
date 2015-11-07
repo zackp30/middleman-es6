@@ -8,7 +8,7 @@ module MiddlemanEs6
     end
 
     def evaluate(context, locals, &block)
-      @output ||= Babel::Transpiler.transform(data)["code"]
+      "test"
     end
   end
 end
